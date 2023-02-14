@@ -1,6 +1,6 @@
 # Lerna React-Scripts Environment Variable Issue
 
-This simple repo is to reproduce an issue reported to the Lerna project.  I had problems when upgrading from Lerna 4 to Lerna 6 with my .env file being picked up properly, but .env.development, .env.*.local, etc. files not overriding.
+This simple repo is to reproduce an issue [reported to the Lerna project](https://github.com/lerna/lerna/issues/3540).  I had problems when upgrading from Lerna 4 to Lerna 6 with my .env file being picked up properly, but .env.development, .env.*.local, etc. files not overriding.
 
 .env has  `REACT_APP_Api=https://prod.corpdomain` while .env.development has `REACT_APP_Api=https://mydevserver.corpdomain`
 
